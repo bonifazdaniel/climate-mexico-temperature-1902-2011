@@ -1,0 +1,37 @@
+# Carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales
+.env/
+venv/
+.venv/
+
+# Archivos de datos grandes
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Permitimos solo el dataset final si quieres:
+!data/processed/temperaturas_mx_1902_2011.csv
+
+# Configuración de VS Code o editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos de Power BI
+*.pbix.tmp
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Archivos de Word generados
+*.docx
+
+# Carpetas de resultados
+reports/figures/*
+reports/tables/*
+reports/*.pdf
