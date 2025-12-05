@@ -1,3 +1,5 @@
+LOOK AT docs FOLDER TO READ THE USER GUIDE
+
 \# Climate Temperature Analysis in Mexico (1902–2011)
 
 \## Overview
